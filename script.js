@@ -1,5 +1,5 @@
 const initialMovies = [
-    { name: "Inception", releaseDate: "2010-07-16", posterURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gx_wAfGjWBDuLmFxaJQjYF5-6ZL6XdAX1Q&s", imdbRating: 8.8 },
+    { name: "Inception", releaseDate: "2010-07-16", posterURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtyAXKGtMyecRWN0WVVWZdzfSx0p_6Q9ETw&s", imdbRating: 8.8 },
     { name: "The Dark Knight", releaseDate: "2008-07-18", posterURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gx_wAfGjWBDuLmFxaJQjYF5-6ZL6XdAX1Q&s", imdbRating: 9.0 },
     { name: "Interstellar", releaseDate: "2014-11-07", posterURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gx_wAfGjWBDuLmFxaJQjYF5-6ZL6XdAX1Q&s", imdbRating: 8.6 },
     { name: "Parasite", releaseDate: "2019-05-30", posterURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gx_wAfGjWBDuLmFxaJQjYF5-6ZL6XdAX1Q&s", imdbRating: 8.6 },

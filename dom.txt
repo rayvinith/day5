@@ -1,0 +1,64 @@
+HTML DOM Basics
+
+DOM Definition: The Document Object Model is a programming interface for web documents. It represents the page so programs can change the document structure, style, and content.
+
+Tree Structure: The DOM represents the document as a tree of nodes.
+
+Core Concepts
+Nodes: The building blocks of the DOM tree. Types include:
+Element nodes: HTML elements.
+Text nodes: Text inside elements.
+Attribute nodes: Attributes of HTML elements.
+Comment nodes: Comments in the HTML.
+
+Accessing DOM Elements
+Methods to Select Elements:
+getElementById(id): Selects an element by its ID.
+getElementsByClassName(className): Selects elements by class name.
+getElementsByTagName(tagName): Selects elements by tag name.
+querySelector(selector): Selects the first element matching a CSS selector.
+querySelectorAll(selector): Selects all elements matching a CSS selector.
+
+
+Manipulating DOM Elements
+Change Content:
+element.innerHTML: Get/set HTML content.
+element.textContent: Get/set text content.
+
+Change Attributes:
+element.getAttribute(attribute): Get an attribute value.
+element.setAttribute(attribute, value): Set an attribute value.
+
+Change Styles:
+element.style.property: Set CSS properties directly.
+Creating and Adding Elements
+
+Create Elements:
+document.createElement(tagName): Create a new element.
+document.createTextNode(text): Create a new text node.
+
+Append Elements:
+parent.appendChild(newChild): Append a child element.
+parent.insertBefore(newChild, referenceChild): Insert a new child before a reference child.
+
+Removing Elements
+Remove Child:
+parent.removeChild(child): Remove a child element from the parent.
+
+Event Handling
+Add Event Listener:
+element.addEventListener(event, function): Attach an event handler to an element.
+
+Common Events:
+click: Mouse click.
+mouseover: Mouse over an element.
+mouseout: Mouse out of an element.
+keyup: Key released.
+submit: Form submission.
+
+Traversing the DOM
+Parent/Child/Sibling Navigation:
+element.parentNode: Access parent node.
+element.childNodes: Access child nodes (including text nodes).
+element.firstChild, element.lastChild: Access first/last child.
+element.nextSibling, element.previousSibling: Access next/previous sibling.
