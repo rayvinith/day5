@@ -12,7 +12,7 @@ const initialMovies = [
 
 
 
-document.getElementById('movieForm').addEventListener('submit', function() {
+document.getElementById('movieForm').addEventListener('submit', function(e) {
     e.preventDefault();
   
     const name = document.getElementById('name').value;
