@@ -1,3 +1,54 @@
+body {
+   
+   
+  align-items: center;
+  justify-content: center;
+}
+.main{
+ 
+  align-items: center;
+  justify-content: center;
+}
+.form{
+ 
+  align-items: center;
+  justify-content: center;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+
+.lists{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}
+.card{
+ object-fit: contain;
+ width: 300px;
+ height: 300px;
+
+}
+
+
+
+
+
 
 
   .hero {
@@ -67,7 +118,6 @@
 
 
 
-
 @media screen and (max-width: 360px) {
 
     .hero {
@@ -79,6 +129,17 @@
       .hero1{
         margin-top: -1vh;
        
+    }
+    .hero2-img {
+      width: 260px;
+      height: 200px;
+    }
+
+    .lists{
+      width: 260px;
+      height: 200px;
+    margin: 20px;
+    
     }
     
   }
@@ -94,7 +155,7 @@
     
       .hero2-img {
         width: 360px;
-        height: 360px;
+        height: 300px;
       }
       .hero1{
         margin-top: -1vh;
